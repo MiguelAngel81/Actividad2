@@ -1,10 +1,5 @@
 <?xml version="1.0"?>
 <schema xmlns:xsi="http://www.w3.org/2001/XMLSchema">
-    <annotation>
-        <documentation>
-            Esquema que marca la estructura de un libro de la libreria
-         </documentation>
-    </annotation>
     <element name="Libro">
         <complexType>
             <sequence>
@@ -19,7 +14,7 @@
                     </complexType>  
                 </element>
                 <element name="fecha_edicion" type="date" minOccurs="0"></element>
-                <element name="bestseller" minOccurs="0">
+                <element name="PREMIO CERVANTES" minOccurs="0">
                     <complexType />
                 </element>
                 <element name="paginas">
@@ -37,7 +32,6 @@
                     </complexType>
                 </element>
             </sequence>
-            <attribute name="precio" type="double"></attribute>
             <attribute name="id" type="integer" use="required"></attribute>
         </complexType>
     </element>
